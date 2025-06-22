@@ -14,10 +14,10 @@ const config: webpack.Configuration = {
     new HtmlWebpackPlugin({
       title: 'Home',
       filename: 'index.html',
-      template: path.resolve(__dirname, "dev/_index.html"),
+      template: path.resolve(__dirname, "dev/index.html"),
       scriptLoading: "module",
       inject: "body",
-      favicon: path.resolve(__dirname, "dev/media/globe-logo.png"),
+      favicon: path.resolve(__dirname, "dev/media/favicon-alt.svg"),
     }),
     // new HtmlWebpackPlugin({
     //   title: 'About',
@@ -25,14 +25,13 @@ const config: webpack.Configuration = {
     //   template: path.resolve(__dirname, "dev/_about.html"),
     //   scriptLoading: "module",
     //   inject: "body",
-    //   favicon: path.resolve(__dirname, "dev/media/globe-logo.png"),
     // }),
-    new HtmlWebpackPlugin({
-      filename: 'fb.html',
-      scriptLoading: "defer",
-      template: './dev/html/parts/_feedbucket.html', // Path to your HTML template
-      inject: 'head', // Inject scripts into the <head>
-    }),
+    // new HtmlWebpackPlugin({
+    //   filename: 'fb.html',
+    //   scriptLoading: "defer",
+    //   template: './dev/html/parts/_feedbucket.html', // Path to your HTML template
+    //   inject: 'head', // Inject scripts into the <head>
+    // }),
   ],
   module: {
     rules: [

@@ -19,11 +19,6 @@ $paprika: #990032;
 $blue-smoke: #6b8584;
 $athens-gray: #f0f2f5;
 
-// body {
-//     background-color: $burgundy-black;
-//   color: $athens-gray;
-// }
-
 // BOOTSTRAP 
 //   1. functions first
 @import "/node_modules/bootstrap/scss/functions";
@@ -293,6 +288,6 @@ $utilities: map-merge($utilities, $modified-utilities);
 body {
   height: 100vh;
   width: 100vw;
-  background-color: $burgundy-black;
+  background-color: $tiber;
   color: $athens-gray;
 }
