@@ -1,6 +1,6 @@
 // =========== TYPOGRAPHY 
 @import "https://use.typekit.net/hif2dht.css";
-@import "sass/typography.scss"; 
+@import "styles/typography.scss"; 
 
 $obviously: "obviously-variable", sans-serif;
 $obviously-min: "wdth" 50, "wght" 200, "ital" 0;
@@ -10,7 +10,7 @@ $meursault-min: "wdth" 1, "wght" 100;
 $meursault-max: "wdth" 200, "wght" 800;
 
 // =========== COLORS
-@import "sass/colors.scss";
+// @import "styles/colors.scss";
 $burgundy-black: #060506;
 $tiber: #003333;
 $blue-stone: #006664;
@@ -282,10 +282,10 @@ $utilities: map-merge($utilities, $modified-utilities);
 @import "/node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-@import url("sass/nameMorph.scss");
-@import url("sass/navbar.scss");
-@import url("sass/projects.scss");
-// @import url("sass/_bs-color-mode-toggle.scss");
+@import url("styles/_name-morph.scss");
+@import url("styles/_navbar.scss");
+@import url("styles/_projects.scss");
+// @import url("styles/_bs-color-mode-toggle.scss");
 
 // IMPORT WHOLE BOOTSTRAP LIBRARY?
 // @import "/node_modules/bootstrap/scss/bootstrap";
