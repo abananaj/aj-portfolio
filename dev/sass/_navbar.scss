@@ -1,0 +1,101 @@
+nav.navbar {
+  z-index: 100;
+  /*width: fit-content;
+  min-width: 30vw;*/
+  position: fixed;
+ /* bottom: 20px;*/
+  left: 0;
+  overflow: visible;
+
+  ul.navbar-nav {
+    font-variation-settings: "wght" 250, "wdth" 50, "ital" 0;
+    margin: 0;
+    opacity: 60%;
+    padding-left:0;
+    transition: 500ms ease-out;
+
+    &:hover {
+      opacity: 100%;
+      transition: 500ms ease-in;
+    }
+
+    li.nav-item {
+      position: relative;
+      display: flex;
+    padding-left:0;
+      text-transform: uppercase;
+      align-items: center;
+      font-size: 4rem;
+      height: 4rem;
+      background-blend-mode: difference;
+      transition: 500ms ease-out;
+
+      a.nav-link {
+        padding: 10px;
+        color: #f0f2f5;
+        white-space: nowrap;
+        cursor: pointer;
+        text-decoration: none;
+        line-height: 1;
+        transition: 500ms ease-out;
+      }
+
+      ul.dropdown-menu {
+        display: flex;
+        padding: 0;
+        flex-flow: row nowrap;
+        opacity: 0;
+        overflow: visible;
+        list-style: none;
+
+        /* display: none; */
+        transition: 500ms ease-out;
+
+        li {
+          overflow: visible;
+          padding: 1px 5px;
+          transition: 500ms ease-out;
+
+          a.dropdown-item {
+            font-size: 75%;
+            font-variation-settings: "wght" 300, "wdth" 50, "ital" 0;
+            text-transform: capitalize;
+            transition: 500ms ease-out;
+          }
+        }
+      }
+
+      &:hover {
+        a {
+          color: #d36589;
+          font-variation-settings: "wght" 300, "wdth" 150, "ital" 0;
+          transform: translate(5px, 0);
+          transition: 500ms ease-in;
+        }
+
+        .dropdown-menu {
+          opacity: 1;
+
+          /* display: flex; */
+          transition: opacity 500ms ease-in;
+
+          li {
+            padding: 0 5px;
+            transform: translate 0, 0;
+            font-variation-settings: "wght" 200, "wdth" 75, "ital" 0;
+            transition: 500ms ease-out;
+
+            .dropdown-menu:hover {
+              transform: translateY(-5px);
+              font-variation-settings: "wght" 300, "wdth" 75, "ital" 0;
+              transition: 500ms ease-in;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+img {
+  max-width: 100%;
+}
