@@ -11,6 +11,7 @@ $meursault-max: "wdth" 200, "wght" 800;
 
 // =========== COLORS
 // @import "styles/colors.scss";
+// Strawberry Velvet: https://colordesigner.io/color-palette-builder#990033-660033-F0F2F5-003333-006664
 $burgundy-black: #060506;
 $tiber: #003333;
 $blue-stone: #006664;
@@ -18,6 +19,8 @@ $black-rose: #660033;
 $paprika: #990032;
 $blue-smoke: #6b8584;
 $athens-gray: #f0f2f5;
+$gorse: #ffeb3b;
+$amber: #ffbe00;
 
 // BOOTSTRAP 
 //   1. functions first
@@ -28,6 +31,24 @@ $athens-gray: #f0f2f5;
 // global variables
 $enable-smooth-scroll: true;
 
+// custom color variables
+$white: 	$athens-gray;
+$black: 	$burgundy-black;
+
+$blue:      #0003c7;
+$indigo: 	#0e1140;
+$purple:    #4A148C !default;
+$pink:      #cd4f8e !default;
+$red: 		$paprika;
+$orange: 	$amber;
+$yellow: 	$gorse;
+$green: 	$tiber;
+$teal:      $blue-stone !default;
+$cyan:      #0eeaff !default;
+$gray:      #bbc7c7 !default;
+$gray-dark: $blue-smoke !default;
+
+
 // theme color variables
 $primary: $paprika;
 $secondary: $black-rose;
@@ -37,7 +58,6 @@ $success: $blue-stone;
 $info: $blue-smoke;
 $warning: #da5824;
 $danger: #990032;
-
 $border-color: $tiber;
 
 // font family
