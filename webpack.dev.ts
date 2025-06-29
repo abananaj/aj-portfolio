@@ -6,7 +6,7 @@ import config from "./webpack.config";
 
 const devConfig: webpack.Configuration = merge(config, {
     mode: 'development',
-  devtool: 'inline-source-map',
+//   devtool: 'inline-source-map',
     devServer: {
         static: path.resolve(__dirname, 'prod'),
         liveReload: true,

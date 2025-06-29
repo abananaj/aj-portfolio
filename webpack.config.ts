@@ -17,7 +17,7 @@ const config: webpack.Configuration = {
       template: path.resolve(__dirname, "dev/index.html"),
       scriptLoading: "module",
       inject: "body",
-      favicon: path.resolve(__dirname, "dev/media/favicon-alt.svg"),
+      favicon: path.resolve(__dirname, "dev/content/media/favicon-alt.svg"),
     }),
     // new HtmlWebpackPlugin({
     //   title: 'About',
