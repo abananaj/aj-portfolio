@@ -6,20 +6,21 @@ nav.navbar {
  /* bottom: 20px;*/
   left: 0;
   overflow: visible;
-
-  ul.navbar-nav {
+  ul.main-menu {
     font-variation-settings: "wght" 250, "wdth" 50, "ital" 0;
     margin: 0;
     opacity: 60%;
     padding-left:0;
     transition: 500ms ease-out;
+display: flex;
+flex-flow: column nowrap;
 
     &:hover {
       opacity: 100%;
       transition: 500ms ease-in;
     }
 
-    li.nav-item {
+    li {
       position: relative;
       display: flex;
     padding-left:0;
@@ -30,7 +31,7 @@ nav.navbar {
       background-blend-mode: difference;
       transition: 500ms ease-out;
 
-      a.nav-link {
+      a {
         padding: 10px;
         color: #f0f2f5;
         white-space: nowrap;
@@ -40,7 +41,7 @@ nav.navbar {
         transition: 500ms ease-out;
       }
 
-      ul.dropdown-menu {
+      ul.submenu {
         display: flex;
         padding: 0;
         flex-flow: row nowrap;
@@ -56,7 +57,7 @@ nav.navbar {
           padding: 1px 5px;
           transition: 500ms ease-out;
 
-          a.dropdown-item {
+          a {
             font-size: 75%;
             font-variation-settings: "wght" 300, "wdth" 50, "ital" 0;
             text-transform: capitalize;
@@ -73,7 +74,7 @@ nav.navbar {
           transition: 500ms ease-in;
         }
 
-        .dropdown-menu {
+        .submenu {
           opacity: 1;
 
           /* display: flex; */
@@ -85,7 +86,7 @@ nav.navbar {
             font-variation-settings: "wght" 200, "wdth" 75, "ital" 0;
             transition: 500ms ease-out;
 
-            .dropdown-menu:hover {
+            .submenu:hover {
               transform: translateY(-5px);
               font-variation-settings: "wght" 300, "wdth" 75, "ital" 0;
               transition: 500ms ease-in;

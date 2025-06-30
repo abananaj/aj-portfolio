@@ -2,9 +2,7 @@
 	--fontSize: 60px;
 	box-sizing: border-box;
 	min-height: 100vh;
-	background: black;
 	font-family: "obviously-variable";
-	color: pink;
 	overflow: hidden;
 	height: 100%;
 	max-width: 100vw;
@@ -24,7 +22,6 @@
 	.wheel {
 		position: relative;
 		width: 100%;
-		// min-width: 800px;
 		height: 100%;
 		transform-style: preserve-3d;
 	}
