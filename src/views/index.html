@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Jennings</title>
+    @@include('./partials/_feedbucket.html')
+</head>
+
+<body>
+    <!-- IMPORT NAVBAR/HEADER -->
+    <!-- Header -->
+    <header class="pg-header" id="pg-header">
+
+        <h1>Anna Jennings</h1>
+        <h2>
+            Web Designer & Developer
+            <br>
+            Theatre Director & Dramaturg
+        </h2>
+
+        @@include('./partials/_sticky-nav.html')
+    </header>
+
+    <!-- IMPORT MAIN PAGE CONTENT -->
+    <main class="pg-main">
+        @@include('./sections/about.html')
+        @@include('./sections/web.html')
+        @@include('./sections/theatre.html')
+        @@include('./sections/writing.html')
+        @@include('./sections/connect.html')
+    </main>
+
+    <!-- IMPORT FOOTER -->
+    @@include('./partials/_footer.html')
+</body>
+
+</html>

@@ -10,8 +10,8 @@ const prodConfig: webpack.Configuration = merge(config, {
     mode: 'production',
     output: {
         filename: "[name].scripts.[contenthash].js",
-        path: path.resolve(__dirname, "prod/"),
-        assetModuleFilename: "media/[name].[hash][ext][query]",
+        path: path.resolve(__dirname, "public/"),
+        assetModuleFilename: "assets/[name].[hash][ext][query]",
         clean: true,
     },
     plugins: [new MiniCssExtractPlugin({ filename: "[name].styles.[contenthash].css" })],

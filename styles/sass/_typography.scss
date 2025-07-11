@@ -1,0 +1,17 @@
+.obviously {
+  font-family: "obviously-variable", sans-serif;
+  font-variation-settings: "wdth" 50, "wght" 200, "ital" 0;
+  font-variation-settings: "wdth" 200, "wght" 900, "ital" 0;
+}
+.meursault {
+  font-family: "meursault-variable", serif;
+  font-variation-settings: "wdth" 1, "wght" 100;
+  font-variation-settings: "wdth" 200, "wght" 800;
+}
+
+$obviously: "obviously-variable", sans-serif;
+$obviously-min: "wdth" 50, "wght" 200, "ital" 0;
+$obviously-max: "wdth" 200, "wght" 900, "ital" 0;
+$meursault: "meursault-variable", serif;
+$meursault-min: "wdth" 1, "wght" 100;
+$meursault-max: "wdth" 200, "wght" 800;

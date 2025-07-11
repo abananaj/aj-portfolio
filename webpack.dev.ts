@@ -8,9 +8,9 @@ const devConfig: webpack.Configuration = merge(config, {
     mode: 'development',
 //   devtool: 'inline-source-map',
     devServer: {
-        static: path.resolve(__dirname, 'prod'),
+        static: path.resolve(__dirname, 'public'),
         liveReload: true,
-        watchFiles: path.resolve(__dirname, 'dev/*.html'),
+        watchFiles: path.resolve(__dirname, 'src/*.*'),
     },
     module: {
         rules: [

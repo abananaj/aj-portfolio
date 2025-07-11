@@ -1,2 +1,0 @@
-# What is a Dramaturg?
-A dramaturg is a theatre artist who works with the playwright, director, designers, and actors in developing new or existing plays from the perspective of the audience. In new play development, the dramaturg collaborate with the playwright in the creation of the storytelling mechanics and overall theatrical experience. In this case study, I will explain the striking similarities between Design Thinking method and my typical creative process as a dramaturg on a new play.
