@@ -16,88 +16,63 @@
 
 <body>
     <!-- IMPORT NAVBAR/HEADER -->
-    <!-- boostrap version -->
-<nav class="navbar fixed-bottom navbar-expand-sm">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="content/media/favicon-alt.svg" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="main-menu">
-        <!-- 	ABOUT -->
-        <li>
-          <a href="#">Anna</a>
-          <ul class="submenu">
-            <li><a href="./resumes.html">Resumes</a></li>
-            <li><a href="mailto:anna@theatrum.design">email</a></li>
-            <li><a
-                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3CFh3dyXPoWyXQoZidKq6ZtqHCPVAwnAmG-nfngninCxWnCUoj0PxYP93nhE3xC389bH4Bv16h?gv=true"
-                target="_blank">schedule</a></li>
-          </ul>
-        </li>
-        <!-- 	WEB -->
-        <li>
-          <a href="#">Web</a>
-          <ul class="submenu">
-            <!-- <li><a href="/media/jennings-resume-web.pdf">Design/Dev Resume</a></li> -->
-            <li><a href="web/" target="_blank">Design</a></li>
-            <li><a href="web/" target="_blank">Development</a></li>
-            <li><a href="/projects.html">Websites</a></li>
-            <li><a href="https://behance.net/annajennings" target="_blank">behance</a></li>
-            <li><a href="https://codepen.io/annabananajennings" target="_blank">codepen</a></li>
-            <li><a href="https://github.com/abananaj" target="_blank">github</a></li>
-            <li><a href="https://theatrum.design" target="_blank">Theatrum Mundi</a></li>
-          </ul>
-        </li>
-        <!-- 	THEATRE -->
-        <li>
-          <a href="#">Theatre</a>
-          <ul class="submenu">
-            <li><a href="./theatre/">Directing</a></li>
-            <li><a href="./theatre/">Dramaturgy</a></li>
-            <li><a href="./theatre/">Producing</a></li>
-          </ul>
-        </li>
-        <!-- 	WRITING -->
-        <li>
-          <a href="#" data-bs-toggle="dropdown" aria-expanded="false">Writing</a>
-          <ul class="submenu">
-            <li><a href="./writing/index.html">Published</a></li>
-            <li><a href="./writing/thesis.html">MFA Thesis</a></li>
-            <li><a href="https://abstractdepressionism.blog" target="_blank">Blog</a></li>
-          </ul>
-        </li>
-        <!-- 	SOCIAL -->
-        <li>
-          <a href="#" data-bs-toggle="dropdown" aria-expanded="false">Other</a>
-          <ul class="submenu">
-            <li><a href="https://linkedin.com/in/annabananajennings" target="_blank">linkedin</a></li>
-            <li><a href="https://www.instagram.com/annabananajennings/" target="_blank">instagram</a></li>
-            <li><a href="https://behance.net/annajennings" target="_blank">behance</a></li>
-            <li><a href="https://codepen.io/annabananajennings" target="_blank">codepen</a></li>
-            <li><a href="https://github.com/abananaj" target="_blank">github</a></li>
-            <!-- <li><a href="https://www.pinterest.com/theatrumaj/" target="_blank">pinterest</a></li> -->
-            <!-- <li><a href="https://github.com/abananaj" target="_blank">tumblr</a></li> -->
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Header -->
+<header class="pg-header" id="pg-header">
+	<h1>Anna Jennings</h1>
+	<nav class="pg-menu">
+		<ul>
+			<li class="nav-tab"><a href="#about">about</a></li>
+			<li class="nav-tab"><a class="nav-tab" href="#web">web</a></li>
+			<li class="nav-tab"><a class="nav-tab" href="#theatre">theatre</a></li>
+			<li class="nav-tab"><a class="nav-tab" href="#writing">writing</a></li>
+			<li class="nav-tab"><a class="nav-tab" href="#connect">connect</a></li>
+			<span class="nav-tab-indicator"></span>
+		</ul>
+
+	</nav>
+</header>
+
 
     <!-- IMPORT MAIN PAGE CONTENT -->
-    
-
-    <!-- or nameWheel -->
-    <div class="name-wheel">
-        <div class="wheelContainer">
-            <div class="wheel">
-                <h1 class="txt">Anna Jennings</h1>
-            </div>
-        </div>
-    </div>
+    <main class="pg-main">
+        	<section class="pg-section" id="about">
+		<div class="container">
+			<h2>About</h2>
+			<h3>biography</h3>
+			<h3>resumes</h3>
+		</div>
+	</section>
+        	<section class="pg-section" id="web">
+		<div class="container">
+			<h2>Web</h2>
+			<h3>webprojects</h3>
+			<h3>skills</h3>
+		</div>
+	</section>
+        	<section class="pg-section" id="theatre">
+		<div class="container">
+			<h2>Theatre</h2>
+			<h3>directing</h3>
+			<h3>dramaturg</h3>
+		</div>
+	</section>
+        	<section class="pg-section" id="writing">
+		<div class="container">
+			<h2>Writing</h2>
+			<h3>Abstract Depressionism Blog</h3>
+			<h3>Published</h3>
+			<h3>Scholarship</h3>
+		</div>
+	</section>
+        	<section class="pg-section" id="connect">
+		<div class="container">
+			<h2>Connect</h2>
+			<h3>email</h3>
+			<h3>schedule</h3>
+			<h3>social</h3>
+		</div>
+	</section>
+    </main>
 
     <!-- IMPORT FOOTER -->
     <div class="container">

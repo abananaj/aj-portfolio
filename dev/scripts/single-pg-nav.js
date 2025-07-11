@@ -1,3 +1,7 @@
+    // import * as $ from 'jquery';
+    // Or, if you have esModuleInterop enabled in tsconfig.json:
+import $ from 'jquery';
+	
 class StickyNavigation {
 	constructor() {
 		this.currentId = null;

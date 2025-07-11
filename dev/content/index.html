@@ -10,19 +10,16 @@
 
 <body>
     <!-- IMPORT NAVBAR/HEADER -->
-    @@include('./parts/_navbar.html')
+    @@include('./parts/_header.html')
 
     <!-- IMPORT MAIN PAGE CONTENT -->
-    <!-- @@include('./sections/_name-morph.html') -->
-
-    <!-- or nameWheel -->
-    <div class="name-wheel">
-        <div class="wheelContainer">
-            <div class="wheel">
-                <h1 class="txt">Anna Jennings</h1>
-            </div>
-        </div>
-    </div>
+    <main class="pg-main">
+        @@include('./sections/_about.html')
+        @@include('./sections/_web.html')
+        @@include('./sections/_theatre.html')
+        @@include('./sections/_writing.html')
+        @@include('./sections/_connect.html')
+    </main>
 
     <!-- IMPORT FOOTER -->
     @@include('./parts/_footer.html')
