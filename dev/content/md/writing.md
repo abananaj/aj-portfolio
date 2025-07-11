@@ -1,27 +1,6 @@
 # Writing
 I write personal essays, academic scholarship, and critical reviews. I am, however, a chameleon with words and can adapt my voice and tone to an subject or audience.
 
-## Media
-
-- Blogging
-- Personal Essays
-- Critical Reviews
-- Academic Writing
-
-## Services
-
-- Ghostwriting
-- Copywriting
-- Research
-- Editing & Proofreading
-
-## Skills
-
-- MLA, APA, Chicago
-- Advanced Spanish
-- Intermediate French
-- Beginner German
-
 ## Writing Samples
 ### Abstract Depressionism
 Mixed-media blog

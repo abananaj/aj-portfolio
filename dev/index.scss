@@ -297,13 +297,14 @@ $utilities: map-merge($utilities, $modified-utilities);
 @import "/node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-// @import url("styles/_name-wheel.scss");
+@import url("styles/_name-wheel.scss");
 // @import url("styles/_navbar.scss");
 // @import url("styles/_projects.scss");
 // @import url("styles/_bs-color-mode-toggle.scss");
 
 
-@import url("styles/_single-pg-nav.scss");
+@import url("styles/_sticky-nav.scss");
+@import url("styles/_corner-mousetracking.scss");
 
 // IMPORT WHOLE BOOTSTRAP LIBRARY?
 // @import "/node_modules/bootstrap/scss/bootstrap";
