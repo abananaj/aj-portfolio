@@ -1,17 +1,17 @@
 import { src, dest, watch, series, parallel } from "gulp";
 import html from "gulp-file-include";
-import markdown from 'gulp-markdown';
+// import markdown from 'gulp-markdown';
 
 // CONTENT
 function compileHtml() {
-  return src("src/views/index.html")
+  return src("src/views/*.html")
     .pipe(
       html({
         prefix: "@@",
         basepath: "@file",
       })
     )
-    .pipe(dest("src"));
+    .pipe(dest("public"));
 }
 function watchHtml() { watch(["src/views/**/*.html", "src/components/**/*.html"], compileHtml); }
 

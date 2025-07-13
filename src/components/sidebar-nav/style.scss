@@ -1,0 +1,46 @@
+
+.sidebarNav nav {
+  position:relative;
+  .btn {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.1s ease-in-out;
+    &.btnOpen {
+      transform: rotate(180deg);
+        color: #5efce8;
+    }
+    &.btnClose {
+      z-index: 9;
+      opacity: 0;
+        color: #5efce8;
+    }
+  }
+
+  ul {
+    width: 300px;
+    height: 100%;
+    list-style: none;
+    transform: translateX(-100%);
+    li {
+      position: relative;
+      user-select: none;
+      cursor: pointer;
+      transition: background 0.2s ease-in;
+      &:hover {
+        background-color: #5efce8;
+      }
+    }
+  }
+}

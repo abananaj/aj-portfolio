@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g style="pointer-events: none;">
+    <title>one</title>
+    <rect x="10.034" y="10.034" transform="matrix(0, 1, -1, 0, 235.033529, 14.966486)" style="fill: rgb(253, 203, 80); stroke-width: 0.943;" width="200" height="200"/>
+    <rect x="-39.965" y="60.034" transform="matrix(0, 1, -1, 0, 185.033589, 64.966447)" style="fill: rgb(253, 143, 1); stroke-width: 0.943;" width="200" height="99.999"/>
+    <rect x="301.701" y="10.034" transform="matrix(0, 1, -1, 0, 485.034007, -276.700964)" style="fill: rgb(188, 154, 244); stroke-width: 0.882;" width="200" height="200"/>
+    <rect x="251.701" y="60.034" transform="matrix(0, 1, -1, 0, 435.034128, -226.701009)" style="fill: rgb(104, 100, 247); stroke-width: 0.882;" width="200" height="99.999"/>
+    <rect x="10.034" y="301.701" transform="matrix(0, 1, -1, 0, 526.700817, 264.966619)" style="fill: rgb(253, 143, 1); stroke-width: 0.943;" width="200" height="200"/>
+    <rect x="-39.965" y="351.698" transform="matrix(0, 1, -1, 0, 476.702433, 314.965125)" style="fill: rgb(253, 96, 80); stroke-width: 0.943;" width="200" height="100.004"/>
+    <rect x="301.699" y="301.699" transform="matrix(0, 1, -1, 0, 776.699296, -26.699433)" style="fill: rgb(103, 204, 209); stroke-width: 0.943;" width="199.999" height="199.999"/>
+    <rect x="251.702" y="351.698" transform="matrix(0, 1, -1, 0, 726.701126, 23.298882)" style="fill: rgb(39, 162, 204); stroke-width: 0.943;" width="199.999" height="100.003"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -130.66376, -132.501346)" style="pointer-events: none; visibility: hidden;">
+    <title>two</title>
+    <g transform="matrix(1.069443, 0, 0, 0.401039, 134.135943, 149.428912)" style="">
+      <title>tl</title>
+      <rect x="9.382" y="9.382" transform="matrix(0, 1, -1, 0, 216.525182, 10.74683)" style="fill: rgb(253, 203, 80); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="-37.37" y="56.136" transform="matrix(0, 1, -1, 0, 169.77193, 57.5001)" style="fill: rgb(253, 143, 1); stroke-width: 0.882;" width="187.013" height="93.506"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 0.375, 119.300349, 277.387427)" style="">
+      <rect x="301.701" y="10.034" transform="matrix(0, 1, -1, 0, 496.39741, -288.063849)" style="fill: rgb(188, 154, 244); stroke-width: 0.882;" width="200" height="200"/>
+      <rect x="251.701" y="60.034" transform="matrix(0, 1, -1, 0, 446.397531, -238.063894)" style="fill: rgb(104, 100, 247); stroke-width: 0.882;" width="200" height="99.999"/>
+    </g>
+    <g transform="matrix(1.069444, 0, 0, 0.401041, 134.136126, 415.054055)" style="">
+      <rect x="9.382" y="282.11" transform="matrix(0, 1, -1, 0, 489.252726, 283.474249)" style="fill: rgb(253, 143, 1); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="-37.37" y="328.861" transform="matrix(0, 1, -1, 0, 442.500986, 330.226112)" style="fill: rgb(253, 96, 80); stroke-width: 0.882;" width="187.013" height="93.51"/>
+    </g>
+    <g transform="matrix(1.069439, 0, 0, 0.40104, 92.472086, 290.053992)" style="">
+      <rect x="282.11" y="282.11" transform="matrix(0, 1, -1, 0, 761.979814, 10.747255)" style="fill: rgb(103, 204, 209); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="235.359" y="328.862" transform="matrix(0, 1, -1, 0, 715.228043, 57.499162)" style="fill: rgb(39, 162, 204); stroke-width: 0.882;" width="187.013" height="93.51"/>
+    </g>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -130.66376, -132.501361)" style="visibility: hidden;">
+    <title>three</title>
+    <g transform="matrix(2.406246, 0, 0, 0.401039, 107.226183, 149.428912)" style="">
+      <rect x="9.382" y="9.382" transform="matrix(0, 1, -1, 0, 216.525182, 10.74683)" style="fill: rgb(253, 203, 80); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="-37.37" y="56.136" transform="matrix(0, 1, -1, 0, 169.77193, 57.5001)" style="fill: rgb(253, 143, 1); stroke-width: 0.882;" width="187.013" height="93.506"/>
+    </g>
+    <g transform="matrix(2.245, 0, 0, 0.375, -487.222056, 277.387427)" style="">
+      <rect x="301.701" y="10.034" transform="matrix(0, 1, -1, 0, 496.39741, -288.063849)" style="fill: rgb(188, 154, 244); stroke-width: 0.882;" width="200" height="200"/>
+      <rect x="251.701" y="60.034" transform="matrix(0, 1, -1, 0, 446.397531, -238.063894)" style="fill: rgb(104, 100, 247); stroke-width: 0.882;" width="200" height="99.999"/>
+    </g>
+    <g style="" transform="matrix(2.40625, 0, 0, 0.401041, 107.22658, 415.054055)">
+      <rect x="9.382" y="282.11" transform="matrix(0, 1, -1, 0, 489.252726, 283.474249)" style="fill: rgb(253, 143, 1); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="-37.37" y="328.861" transform="matrix(0, 1, -1, 0, 442.500986, 330.226112)" style="fill: rgb(253, 96, 80); stroke-width: 0.882;" width="187.013" height="93.51"/>
+    </g>
+    <g transform="matrix(2.406239, 0, 0, 0.40104, -549.017895, 290.053992)" style="">
+      <rect x="282.11" y="282.11" transform="matrix(0, 1, -1, 0, 761.979814, 10.747255)" style="fill: rgb(103, 204, 209); stroke-width: 0.882;" width="187.013" height="187.013"/>
+      <rect x="235.359" y="328.862" transform="matrix(0, 1, -1, 0, 715.228043, 57.499162)" style="fill: rgb(39, 162, 204); stroke-width: 0.882;" width="187.013" height="93.51"/>
+    </g>
+  </g>
+</svg>

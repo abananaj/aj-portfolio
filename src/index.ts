@@ -11,11 +11,11 @@ import "./index.scss";
 // ==================== GSAP
 
 // ==================== SCRIPTS
-import "../scripts/stickyNav.js";
-import "../scripts/cornerMousetracking.js";
-import "../scripts/theatreProjects.js";
-import "../scripts/nameMorph.ts";
-import "../scripts/nameWheel.ts";
+import "./components/sidebar-nav/script.js";
+// import "./components/past-productions/script.js";
+// import "./components/scramble-headings/script.js";
+// import "components/web-projects/index.ts";
+// import "./components/skills-tools/index.ts";
 
 // ==================== BOOTSTRAP
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
