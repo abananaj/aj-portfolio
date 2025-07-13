@@ -8,13 +8,14 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 const prodConfig: webpack.Configuration = merge(config, {
   mode: "production",
   output: {
-    // filename: "[name].scripts.[contenthash].js",
-    filename: "scripts.js",
+    filename: "scripts.[contenthash].js",
+    // filename: "scripts.js",
     path: path.resolve(__dirname, "public/"),
-    // assetModuleFilename: "assets/[name].[hash][ext][query]",
+    assetModuleFilename: "assets/[name].[hash][ext][query]",
     clean: true,
   },
-  plugins: [new MiniCssExtractPlugin({ filename: "styles.css" })],
+  plugins: [new MiniCssExtractPlugin({ 
+    filename: "styles.[contenthash].css", })],
   module: {
     rules: [
       {
@@ -23,15 +24,9 @@ const prodConfig: webpack.Configuration = merge(config, {
           // "style-loader", /* Use style-loader for dev builds */
           MiniCssExtractPlugin.loader /* Use MiniCssExtractPlugin.loader for production builds */,
           "css-loader",
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true,
-              sassOptions: {
-                outputStyle: "compressed",
-              },
-            },
-          },
+           "sass-loader"
+            
+          
         ],
       },
     ],

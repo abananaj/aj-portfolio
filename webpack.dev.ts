@@ -20,17 +20,7 @@ const devConfig: webpack.Configuration = merge(config, {
           "style-loader" /* Use style-loader for dev builds */,
           // MiniCssExtractPlugin.loader /* Use MiniCssExtractPlugin.loader for production builds */,
           "css-loader",
-          // "sass-loader",
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true,
-              sassOptions: {
-                  outputStyle: "compressed"
-            
-              },
-            },
-          },
+          "sass-loader",
         ],
       },
     ],

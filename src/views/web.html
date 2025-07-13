@@ -4,23 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anna Jennings</title>
-    @@include('./partials/_feedbucket.html')
-    <link rel="stylesheet" href="styles.css">
+    <title>Web | Anna Jennings</title>
+    @@include('./partials/_head.html')
 </head>
 
 <body>
     <!-- IMPORT NAVBAR/HEADER -->
-        @@include('../components/header/index.html')
+    @@include('./partials/_nav.html')
 
     <!-- IMPORT MAIN PAGE CONTENT -->
     <main>
-        @@include('./sections/_web.html')
+        @@include('./sections/_theatre.html')
     </main>
 
     <!-- IMPORT FOOTER -->
     @@include('./partials/_footer.html')
-    <script src="scripts.js"></script>
 </body>
 
 </html>

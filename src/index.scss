@@ -1,6 +1,6 @@
-// =========== TYPOGRAPHY 
+// =========== TYPOGRAPHY
 @import "https://use.typekit.net/hif2dht.css";
-@import "sass/typography"; 
+@import "sass/typography";
 
 $obviously: "obviously-variable", sans-serif;
 $obviously-min: "wdth" 50, "wght" 200, "ital" 0;
@@ -22,7 +22,7 @@ $athens-gray: #f0f2f5;
 $gorse: #ffeb3b;
 $amber: #ffbe00;
 
-// BOOTSTRAP 
+// BOOTSTRAP
 //   1. functions first
 @import "/node_modules/bootstrap/scss/functions";
 
@@ -32,22 +32,21 @@ $amber: #ffbe00;
 $enable-smooth-scroll: true;
 
 // custom color variables
-$white: 	$athens-gray;
-$black: 	$burgundy-black;
+$white: $athens-gray;
+$black: $burgundy-black;
 
-$blue:      #0003c7;
-$indigo: 	#0e1140;
-$purple:    #4A148C !default;
-$pink:      #cd4f8e !default;
-$red: 		$paprika;
-$orange: 	$amber;
-$yellow: 	$gorse;
-$green: 	$tiber;
-$teal:      $blue-stone !default;
-$cyan:      #0eeaff !default;
-$gray:      #bbc7c7 !default;
+$blue: #0003c7;
+$indigo: #0e1140;
+$purple: #4a148c !default;
+$pink: #cd4f8e !default;
+$red: $paprika;
+$orange: $amber;
+$yellow: $gorse;
+$green: $tiber;
+$teal: $blue-stone !default;
+$cyan: #0eeaff !default;
+$gray: #bbc7c7 !default;
 $gray-dark: $blue-smoke !default;
-
 
 // theme color variables
 $primary: $paprika;
@@ -135,7 +134,7 @@ $border-widths: (
   2: 3px,
   3: 5px,
   4: 7px,
-  5: 9px
+  5: 9px,
 );
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
@@ -148,7 +147,7 @@ $border-widths: (
 $custom-colors: (
   "tertiary": $blue-smoke,
   "quaternary": $tiber,
-  "quininary": $tiber
+  "quininary": $tiber,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -159,22 +158,22 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // add classes for color pallette colors
 @each $color, $val in $colors {
   .bg-#{$color} {
-    background-color: $val
+    background-color: $val;
   }
   .bg-#{$color}-light {
-    background-color: tint-color($val, 80%)
+    background-color: tint-color($val, 80%);
   }
   .bg-#{$color}-dark {
-    background-color: shade-color($val, 30%)
+    background-color: shade-color($val, 30%);
   }
   .text-#{$color} {
-    color: $val
+    color: $val;
   }
   .text-#{$color}-light {
-    color: tint-color($val, 80%)
+    color: tint-color($val, 80%);
   }
   .text-#{$color}-dark {
-    color: shade-color($val, 30%)
+    color: shade-color($val, 30%);
   }
 }
 
@@ -267,11 +266,11 @@ $custom-utilities: (
     state: hover,
     values: (
       0: 0,
-      25: .25,
-      50: .5,
-      75: .75,
+      25: 0.25,
+      50: 0.5,
+      75: 0.75,
       100: 1,
-    )
+    ),
   ),
 );
 $utilities: map-merge($utilities, $custom-utilities);
@@ -283,12 +282,15 @@ $modified-utilities: (
     values: (
       null: $border-width dashed $border-color,
       0: 0,
-    )
+    ),
   ),
-  "display": map-merge(
-    map-get($utilities, "display"),
-    ( class: dis ),
-  ),
+  "display":
+    map-merge(
+      map-get($utilities, "display"),
+      (
+        class: dis,
+      )
+    ),
 );
 
 $utilities: map-merge($utilities, $modified-utilities);
@@ -297,7 +299,7 @@ $utilities: map-merge($utilities, $modified-utilities);
 @import "/node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-@import url("components/sidebar-nav/style.scss");
+// @import url("components/sticky-header/style.scss");
 @import url("components/past-productions/style.scss");
 @import url("components/scramble-headings/style.scss");
 @import url("components/web-projects/style.scss");
@@ -310,7 +312,17 @@ body {
   width: 100vw;
   background-color: $tiber;
   color: $athens-gray;
+  overflow-x:hidden;
+  main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 img {
-  max-width:100%;
+  max-width: 100%;
 }
+@import url("components/sidebar-nav/style.scss");

@@ -1,1 +1,0 @@
-export const testModule = 'hello from test-module.ts';

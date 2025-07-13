@@ -1,7 +1,7 @@
 import path from "path";
 import webpack from "webpack";
 import "webpack-dev-server";
-// import HtmlWebpackPlugin from "html-webpack-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
 const config: webpack.Configuration = {
   entry: {
@@ -11,21 +11,42 @@ const config: webpack.Configuration = {
     extensions: [".ts", ".js"],
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   title: 'Home',
-    //   filename: 'index.html',
-    //   template: path.resolve(__dirname, "src/index.html"),
-    //   scriptLoading: "module",
-    //   inject: "body",
-    //   favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
-    // }),
-    // new HtmlWebpackPlugin({
-    //   title: 'About',
-    //   filename: 'about.html',
-    //   template: path.resolve(__dirname, "src/_about.html"),
-    //   scriptLoading: "module",
-    //   inject: "body",
-    // }),
+    new HtmlWebpackPlugin({
+      title: 'Home',
+      filename: 'index.html',
+      template: path.resolve(__dirname, "src/index.html"),
+      scriptLoading: "module",
+      inject: "body",
+      favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
+    }),
+    new HtmlWebpackPlugin({
+      title: 'About',
+      filename: 'about.html',
+      template: path.resolve(__dirname, "src/about.html"),
+      scriptLoading: "module",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Web',
+      filename: 'web.html',
+      template: path.resolve(__dirname, "src/web.html"),
+      scriptLoading: "module",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Theatre',
+      filename: 'theatre.html',
+      template: path.resolve(__dirname, "src/theatre.html"),
+      scriptLoading: "module",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Writing',
+      filename: 'writing.html',
+      template: path.resolve(__dirname, "src/writing.html"),
+      scriptLoading: "module",
+      inject: "body",
+    }),
     // new HtmlWebpackPlugin({
     //   filename: 'fb.html',
     //   scriptLoading: "defer",
@@ -45,12 +66,12 @@ const config: webpack.Configuration = {
           },
         },
       },
-      // {
-      //   test: /\.html$/,
-      //   use: ["html-loader"],
-      // },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|mp4|ico|.pdf)/,
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|mp4|ico|pdf)/,
         type: "asset/resource",
       },
     ],

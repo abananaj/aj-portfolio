@@ -5,23 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna Jennings</title>
-    @@include('./partials/_feedbucket.html')
-    <link rel="stylesheet" href="styles.css">
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css'>
+    @@include('./partials/_head.html')
 </head>
 
 <body>
     <!-- IMPORT NAVBAR/HEADER -->
-        @@include('../components/sidebar-nav/index.html')
+    @@include('./partials/_nav.html')
 
     <!-- IMPORT MAIN PAGE CONTENT -->
-    <main class="pg-main">
+    <main>
         @@include('../components/scramble-headings/index.html')
     </main>
 
     <!-- IMPORT FOOTER -->
     @@include('./partials/_footer.html')
-    <script src="scripts.js"></script>
 </body>
 
 </html>

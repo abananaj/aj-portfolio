@@ -1,6 +1,8 @@
 
 .sidebarNav nav {
-  position:relative;
+  position:fixed;
+  z-index:1000;
+  width: 300px;
   .btn {
     position: absolute;
     top: 2rem;
@@ -36,10 +38,10 @@
     li {
       position: relative;
       user-select: none;
-      cursor: pointer;
       transition: background 0.2s ease-in;
-      &:hover {
-        background-color: #5efce8;
+      a {
+        color: white;
+      cursor: pointer;
       }
     }
   }
