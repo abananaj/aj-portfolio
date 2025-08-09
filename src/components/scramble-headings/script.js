@@ -1,3 +1,6 @@
+import gsap from "gsap";
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
+gsap.registerPlugin(ScrambleTextPlugin);
 const tl = gsap.timeline({
   id: "text-scramble",
   defaults: { ease: "none" }

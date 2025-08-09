@@ -1,0 +1,49 @@
+.sidebarNav nav {
+  position: fixed;
+  z-index: 1000;
+  width: 300px;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.sidebarNav nav .btn {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.1s ease-in-out;
+}
+.sidebarNav nav .btn.btnOpen {
+  transform: rotate(180deg);
+  color: #5efce8;
+}
+.sidebarNav nav .btn.btnClose {
+  z-index: 9;
+  opacity: 0;
+  color: #5efce8;
+}
+.sidebarNav nav ul {
+  width: 300px;
+  height: 100%;
+  list-style: none;
+  transform: translateX(-100%);
+}
+.sidebarNav nav ul li {
+  position: relative;
+  user-select: none;
+  transition: background 0.2s ease-in;
+}
+.sidebarNav nav ul li a {
+  color: white;
+  cursor: pointer;
+}

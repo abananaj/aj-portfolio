@@ -25,6 +25,7 @@ const config: webpack.Configuration = {
       template: path.resolve(__dirname, "src/about.html"),
       scriptLoading: "module",
       inject: "body",
+      favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
     }),
     new HtmlWebpackPlugin({
       title: 'Web',
@@ -32,6 +33,7 @@ const config: webpack.Configuration = {
       template: path.resolve(__dirname, "src/web.html"),
       scriptLoading: "module",
       inject: "body",
+      favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
     }),
     new HtmlWebpackPlugin({
       title: 'Theatre',
@@ -39,6 +41,7 @@ const config: webpack.Configuration = {
       template: path.resolve(__dirname, "src/theatre.html"),
       scriptLoading: "module",
       inject: "body",
+      favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
     }),
     new HtmlWebpackPlugin({
       title: 'Writing',
@@ -46,6 +49,7 @@ const config: webpack.Configuration = {
       template: path.resolve(__dirname, "src/writing.html"),
       scriptLoading: "module",
       inject: "body",
+      favicon: path.resolve(__dirname, "media/favicon-alt.svg"),
     }),
     // new HtmlWebpackPlugin({
     //   filename: 'fb.html',

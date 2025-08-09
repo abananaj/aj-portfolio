@@ -8,8 +8,8 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 const prodConfig: webpack.Configuration = merge(config, {
   mode: "production",
   output: {
-    filename: "scripts.[contenthash].js",
-    // filename: "scripts.js",
+    // filename: "scripts.[contenthash].js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "public/"),
     assetModuleFilename: "assets/[name].[hash][ext][query]",
     clean: true,

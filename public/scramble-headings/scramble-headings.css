@@ -5,22 +5,19 @@
   justify-content: center;
   text-align: center;
   line-height: 1;
-  &__text {
+}
+.text-scramble__text {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-  span {
-    word-break: break-word;
-  }
-  img {
-    display: inline-block;
-    height: 0.9em;
-    width: auto;
-  }
 }
-
-
+.text-scramble__text span {
+  word-break: break-word;
 }
-
+.text-scramble__text img {
+  display: inline-block;
+  height: 0.9em;
+  width: auto;
+}
