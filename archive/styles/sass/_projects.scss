@@ -1,0 +1,11 @@
+.projects {
+  .card {
+    height: fit-content;
+    flex: 1 2 20%;
+      transition: 200ms ease-in-out 100ms;
+    &:hover {
+      flex: 1 1 35%;
+      transition: 500ms ease-in-out 200ms;
+    }
+  }
+}
