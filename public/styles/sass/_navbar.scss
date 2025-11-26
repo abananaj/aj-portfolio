@@ -1,0 +1,107 @@
+nav {
+  z-index: 100;
+  width: fit-content;
+  min-width: 30vw;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  overflow: visible;
+
+  .mainmenu {
+    font-family: "obviously-variable", sans-serif;
+    font-variation-settings: "wght" 250, "wdth" 50, "ital" 0;
+    padding: 20px 20px 0px 0px;
+    margin: 0;
+    opacity: 60%;
+    transition: var(--trans-out);
+
+    &:hover {
+      opacity: 100%;
+      transition: var(--trans-in);
+    }
+
+    li {
+      position: relative;
+      display: flex;
+
+      /* padding: 0px 0px 0px 20px; */
+      text-transform: uppercase;
+      align-items: center;
+      font-size: 4rem;
+      height: 4rem;
+      background-blend-mode: difference;
+      transition: var(--trans-out);
+
+      a {
+        padding: 10px;
+        color: #f0f2f5;
+        white-space: nowrap;
+        cursor: pointer;
+        text-decoration: none;
+        line-height: 1;
+        transition: var(--trans-out);
+      }
+
+      .submenu {
+        display: flex;
+        padding: 0;
+        flex-flow: row nowrap;
+        opacity: 0;
+        overflow: visible;
+        list-style: none;
+
+        /* display: none; */
+        transition: var(--trans-out);
+
+        li {
+          overflow: visible;
+          padding: 1px 5px;
+          transition: var(--trans-out);
+
+          a {
+            font-size: 75%;
+            font-variation-settings: "wght" 300, "wdth" 50, "ital" 0;
+            text-transform: capitalize;
+            transition: var(--trans-out);
+          }
+        }
+      }
+
+      &:hover {
+        a {
+          color: #d36589;
+          font-variation-settings: "wght" 300, "wdth" 150, "ital" 0;
+          transform: translate(5px, 0);
+          transition: var(--trans-in);
+        }
+
+        .submenu {
+          opacity: 1;
+
+          /* display: flex; */
+          transition: opacity var(--trans-in);
+
+          li {
+            padding: 0 5px;
+            transform: translate 0, 0;
+            font-variation-settings: "wght" 200, "wdth" 75, "ital" 0;
+            transition: var(--trans-out);
+
+            a:hover {
+              transform: translateY(-5px);
+              font-variation-settings: "wght" 300, "wdth" 75, "ital" 0;
+              transition: var(--trans-in);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+
+}
